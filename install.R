@@ -1,1 +1,2 @@
-install.packages (c("tidyverse", "singer", "skimr"))
+install.packages (c("tidyverse", "skimr"))
+remotes::install_github("JoeyBernhardt/singer")
