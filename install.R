@@ -1,5 +1,6 @@
-install.packages (c("tidyverse", "devtools"))
+install.packages (c("tidyverse", "devtools", "readxl"))
 library(devtools)
-remotes::install_github("JoeyBernhardt/singer")
+devtools::install_github("JoeyBernhardt/singer")
 devtools::install_github("ropenscilabs/skimr")
-
+devtools::install_github("nacnudus/tidyxl")
+devtools::install_github("ropensci/writexl")
